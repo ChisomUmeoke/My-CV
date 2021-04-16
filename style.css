@@ -1,0 +1,207 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+
+
+body {
+    background-color: #c8d9e0;
+    padding: 50px 0;
+}
+
+
+main {
+        display:flex;
+        background-color: #fff;
+        padding: 20px 20px 30px 20px;
+        width: 850px;
+        margin: 0 auto;
+        border-radius: 10px;
+    
+}
+
+h1{
+    font-size:45px;
+    text-transform: uppercase;
+    padding:30px 0px 0px 2px;
+    width:800px;
+    color:black;
+}
+
+.description{
+    font-size: 12px;
+    font-style: italic;
+    padding: 0px 0px 22px 2px;
+    width:800px;
+    color:black;
+ 
+}
+
+
+article{
+    max-width: 500px;
+    padding:0px 0px 0px 50px;
+
+}
+
+
+h6{
+    font-size:12px;
+    color:#2079c7;
+    padding:none;
+}
+
+.position{
+    font-size:14px;
+    padding:20px 0 0; 
+    color: black;
+}
+
+.time{
+    font-size:13px;
+    color:#666666;
+ }
+
+ .details{
+     font-size:13px;
+     color:#666666;
+ }
+
+ a{
+     color:#2079c7;
+ }
+
+
+ .aside{
+     padding-top: 60px;;
+     padding-left:50px;
+     max-width: 180px;
+     font-size:12px;     
+     }
+
+
+     .address{
+         padding-bottom: 80px;
+         line-height:20px;
+         color:black;
+     }
+
+     .experience{
+        color:#2079c7;
+     }
+
+     .skill{
+         line-height: 2em;
+         color:#666666;
+
+     }
+     
+     .Languages{
+         padding-top: 100px;
+         color:#2079c7;
+     }
+
+
+     /*@media screen and (max-width: 480px) {
+
+        body{overflow:hidden;
+            background-color: white;
+            margin:0;
+            padding:20px;
+        }
+
+        main {
+            padding: 5px;
+            width: 480px;
+            margin: 0 auto;
+            border-radius: 10px;
+            display:flex;
+            justify-content: space-around;
+        
+    }
+    
+    h1{
+        font-size:14px;
+        text-transform: uppercase;
+        padding:12px 0px 0px 2px;
+        width:300px;
+        color:black;
+    }
+    
+    .description{
+        font-size: 10px;
+        font-style: italic;
+        padding: 0px 0px 22px 2px;
+        width:180px;
+        color:black;
+     
+    }
+    
+    
+    article{
+        max-width: 150px;
+        padding:0px 0px 0px 10px;    
+    }
+    
+    
+    h6{
+        font-size:12px;
+        color:#2079c7;
+        padding:none;
+    }
+    
+    .position{
+        font-size:10px;
+        padding:10px 0 0; 
+        color: black;
+        
+    }
+    
+    .time{
+        font-size:10px;
+        color:#666666;
+     }
+    
+     .details{
+         font-size:10px;
+         color:#666666;
+     }
+    
+     a{
+         color:#2079c7;
+     }
+    
+    
+     .aside{
+         padding-top: 12px;;
+         padding-left:60px;
+         padding-right:150px;
+         max-width: 150px;
+         font-size:10px;     
+         }
+    
+    
+         .address{
+             padding-bottom: 80px;
+             padding-right: 20px;
+             line-height:20px;
+             color:black; 
+             font-size: 9px;          
+         }
+    
+         .experience{
+            color:#2079c7;
+         }
+    
+         .skill{
+             line-height: 2em;
+             color:#666666;
+    
+         }
+         
+         .Languages{
+             padding-top: 100px;
+             color:#2079c7;
+         }
+    
+     }
+
+
+     
